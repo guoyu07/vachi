@@ -15,7 +15,7 @@
             size_id: 512mb
             region_id: sgp1
             image_id: debian-8-x64
-            wait_timeout: 500
+            wait: yes
             ssh_key_ids: "{{ do_ssh_key_ids }}"
             unique_name: yes
         register: my_droplet
